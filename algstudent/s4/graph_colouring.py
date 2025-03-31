@@ -27,7 +27,7 @@ def greedy(graph):
 
 
 if __name__ == "__main__":
-    n = 128
+    n = 16
     map = generate_graph_map(n)
     solution = greedy(map["graph"])
 
